@@ -6,19 +6,19 @@ This is currently only a basic set of instructions that may not be overly clear 
 
 ## About the Mac
 
-| Feature   | Spec                                                       |
-|-----------|------------------------------------------------------------|
-| Network   | BCM4350 802.11ac Wireless Network Adapter                  |
-| Ports     | 2 USB-C ports, 1 headphones port                           |
-| Processor | Intel® Core™ i5-7360U CPU @ 2.30GHz × 4                    |
-| RAM       | 8GB                                                        |
-| Storage   | 256GB SSD                                                  |
+| Feature   | Spec                                      |
+|-----------|-------------------------------------------|
+| Network   | BCM4350 802.11ac Wireless Network Adapter |
+| Ports     | 2 USB-C ports, 1 headphones port          |
+| Processor | Intel® Core™ i5-7360U CPU @ 2.30GHz × 4   |
+| RAM       | 8GB                                       |
+| Storage   | 256GB SSD                                 |
 
 ## Warnings
 
 - OS behaviour is reasonably stable, but not entirely
 - Camera does not work
-- Headphones do not work
+- Internal speakers and headphone jack do not work
 - Sometimes has issues switching between wifi networks
 
 ## Prerequisites
