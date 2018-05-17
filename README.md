@@ -8,7 +8,7 @@ This is currently only a basic set of instructions that may not be overly clear 
 
 | Feature   | Spec                                                       |
 |-----------|------------------------------------------------------------|
-| Network   | Broadcom Limited BCM4350 802.11ac Wireless Network Adapter |
+| Network   | BCM4350 802.11ac Wireless Network Adapter                  |
 | Ports     | 2 USB-C ports, 1 headphones port                           |
 | Processor | Intel® Core™ i5-7360U CPU @ 2.30GHz × 4                    |
 | RAM       | 8GB                                                        |
@@ -57,10 +57,11 @@ This is currently only a basic set of instructions that may not be overly clear 
 
 - Wifi: This can be fixed by running `sudo apt-get install firmware-b43-installer` (may require restart)
 - Keyboard and touchpad: Build [macbook12-spi-driver][]s
-- Boot back into Mac OS: install and run [Boot-Repair][]
+- Boot back into Mac OS: Hold the 'option' key while booting and then pick the correct device. [rEFInd][] can also be installed from within Mac OSX.
 
 
 [Boot-Repair]:            https://help.ubuntu.com/community/Boot-Repair
-[macbook12-spi-driver]:   https://github.com/roadrunner2/macbook12-spi-driver
+[macbook12-spi-driver]:   https://github.com/roadrunner2/macbook12-spi-driveri
+[rEFInd]:                 http://www.rodsbooks.com/refind/
 [Startup Disk Creator]:   https://en.wikipedia.org/wiki/Startup_Disk_Creator
 [Ubuntu 16.04.4 desktop]: http://releases.ubuntu.com/16.04/ubuntu-16.04.4-desktop-amd64.iso
